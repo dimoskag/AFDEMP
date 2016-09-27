@@ -1,2 +1,2 @@
 # AFDEMP
-AFDEMP Projects & exercises
+AFDEMP Projects & Exercises
