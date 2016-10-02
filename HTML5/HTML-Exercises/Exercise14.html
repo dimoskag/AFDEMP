@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Exercise14.css">
+    <title>Άσκηση 14</title>
+  </head>
+  <body>
+    <h1><strong>Registration Form</strong></h1>
+    <form action="test" method="post" name="testForm" width="400px">
+      <fieldset>
+        <legend>Personal Data</legend>
+        <div class="divClear">
+        <div class="divLabels">
+          <label for="usernameid">Username:</label></div>
+        <div class="divContent">
+          <input type="text" id="usernameid" required="text" required></div>
+        </div>
+        <div class="divClear">
+        <div class="divLabels">
+          <label for="passwordid">Password:</label></div>
+        <div class="divContent">
+          <input type="password" id="passwordid" required="text" required></div>
+        </div>
+        <div class="divClear">
+        <div class="divLabels">
+          <label for="preferences">preferences:</label></div>
+        <div class="divContent">
+          <select name=preferences>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select></div>
+        </div>
+        <div class="divClear">
+        <div class="divLabels">
+          <label for="genderRadio">gender:</label></div>
+        <div class="divContent">
+          <input type="radio" name="genderRadio" value="male" required> Male
+          <input type="radio" name="genderRadio" value="female" required> Female
+        </div>
+        </div>
+        <div class="divClear">
+        <div class="divLabels">
+          <label for="ageCheck">age:</label></div>
+        <div class="divContent">
+          <input type="checkbox" name="ageCheck" required> Over 18?
+        </div><br><br>
+        <div class="divButtons">
+          <input type="submit" name="registerBut" value="Register">
+          <input type="reset" name="resetBut" value="Clear fields">
+        </div>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

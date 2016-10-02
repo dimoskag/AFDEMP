@@ -1,0 +1,15 @@
+.divLabels {
+  float: left;
+  width: 100px;
+  margin-top: 10px}
+.divContent {
+  float: left;
+  margin-top: 10px}
+.divButtons {margin-left: 100px}
+.divForm {}
+div.ex1 {display: block;}
+div.ex2 {display: block;}
+div.ex3 {display: block;}
+div.ex4 {display: block;}
+div.ex5 {display: block;}
+.divClear {clear: both;}
