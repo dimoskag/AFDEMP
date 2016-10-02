@@ -1,0 +1,35 @@
+nav.top {
+  background-color: orange;
+}
+nav.bottom {
+  background-color: orange;
+  text-align: center;
+}
+p.header {
+  text-align: center;
+}
+span.sectionTitle {
+  text-decoration: underline;
+}
+h1.header {
+  text-align: center;
+}
+span.fontBold {
+  font-weight: bold;
+}
+span.fontItalic {
+  font-style: italic;
+}
+h2.sections {
+  color: blue;
+}
+span.headerList {
+  font-weight: bold;
+  text-decoration: underline;
+}
+table, th, td, tr.style {
+  border: 1px solid black;
+}
+td.textAlign {
+  text-align: center;
+}

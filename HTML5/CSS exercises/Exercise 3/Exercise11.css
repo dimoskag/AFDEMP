@@ -1,0 +1,21 @@
+.pHeader {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+.spanName {
+  color: yellow;
+  font-weight: bold;
+  font-size: 25px;
+}
+.hTitles {
+  font-weight: bold;
+  background-color: orange;
+}
+.listTitles {
+  color: blue;
+  font-weight: bold;
+}
+.contentHighlight {
+  color: green;
+}
