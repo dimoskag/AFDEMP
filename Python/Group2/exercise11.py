@@ -15,6 +15,6 @@ for z in range (0,len(politeNumbers)):
     if z==0:
         print (politeNumbers[z],end=' ')
     elif z % 10 == 0:
-        print ("\n",politeNumbers[z],end=' ')
+        print (politeNumbers[z])
     else:
         print (politeNumbers[z],end=' ')
