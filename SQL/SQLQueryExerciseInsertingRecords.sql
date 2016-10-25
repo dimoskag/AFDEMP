@@ -1,0 +1,6 @@
+insert into Employees (LastName,FirstName,Title,TitleOfCourtesy,BirthDate,HireDate,City,Region,PostalCode,Country,HomePhone,ReportsTo)
+values ('Kagiaras','Dimos','CEO','Mr.','1986-05-11','2000-06-11','Athens','GR','14564','GR','555-9859','1')
+insert into Orders (CustomerID,EmployeeID,OrderDate,RequiredDate)
+values ('ALFKI','48','2016-10-16','2016-10-25')
+insert into [Order Details] (OrderID,ProductID,UnitPrice,Quantity,Discount)
+values ('11079','1','18.00','10','0.90')
